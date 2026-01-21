@@ -7,7 +7,7 @@ public class Resolucao {
 
     public static void main(String[] args) {
 
-        Dimension tela = Toolkit.getDefaultToolkit().getScreenSize();
+        Dimension tela = Toolkit.getDefaultToolkit().getScreenSize(); //acessa os recursos de sistema padrao e pega o tamanho da tela 
 
         System.out.println("Resolução da tela:");
         System.out.println(tela.width + " x " + tela.height);
